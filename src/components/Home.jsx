@@ -6,7 +6,7 @@ const Home = () => {
     var options = {
       method: "GET",
       url: "https://covid-193.p.rapidapi.com/history",
-      params : {country:'india', day:'2020-06-02'},
+      params : {country:'china', day:'2020-06-02'},
       headers: {
         "x-rapidapi-host": "covid-193.p.rapidapi.com",
         "x-rapidapi-key": "64c8540cf2mshe3e9fd3548f32f0p1d27a5jsn53a04e212c9f",
